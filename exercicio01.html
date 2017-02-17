@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Exercicio 01</title>
+
+		<script type="text/javascript">
+			function troca(){
+				
+				var aux = document.getElementById("txtC1").value;
+				txtC1.value = document.getElementById("txtC2").value;
+				txtC2.value = aux;			
+					
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<form>
+			<label>C1</label>
+			<input type="text" name="txtC1" id="txtC1" value="A">
+
+			<label>C2</label>
+			<input type="text" name="txtC2" id="txtC2" value="B">
+
+			<input
+				type ="button"  value="trocar" onclick= "troca()" >
+			</input>
+
+		</form>
+
+	</body>
+
+</html>
